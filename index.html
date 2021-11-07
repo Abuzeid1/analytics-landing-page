@@ -176,7 +176,7 @@
         aliquet <span class="d-md-block"></span>
         volutpat pellentesque volutpat est.
       </p>
-      <div class="d-flex cards justify-content-start jus">
+      <div class="d-flex cards justify-content-start">
         <!-- card 1 -->
         <div class="card">
           <h2>Starter</h2>
@@ -235,7 +235,9 @@
       </div>
     </section>
     <script>
-      document.querySelector(".card-2").scrollIntoView({ inline: "center" });
+      let x = document.querySelector(".cards");
+      let m = x.scrollWidth - x.clientWidth;
+      document.querySelector(".cards").scroll(m / 2, 0);
     </script>
   </body>
 </html>
