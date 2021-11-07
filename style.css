@@ -1,0 +1,223 @@
+/* utilities */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.text-secondary {
+  font-size: 16px;
+  color: #8794ba !important;
+  line-height: 19px;
+}
+.h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.h2 {
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: 700;
+  color: #172755;
+}
+.body-text {
+  font-size: 18px;
+  line-height: 27px;
+  color: #8794ba;
+}
+.btn-primary {
+  padding: 14.5px 83px;
+  color: #ffffff !important;
+  border-radius: 68px;
+  background-color: #ef2a82;
+  border: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #e5e5e5;
+}
+/* header */
+header {
+  background: url("./images/background-top.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-bottom: 50px;
+  max-width: 1550px;
+  margin: auto;
+
+  padding-top: 50px;
+}
+header .nav-bar {
+  max-width: 1181px;
+  padding-bottom: 74px;
+}
+header .menu {
+  max-width: 538px;
+  width: 62%;
+}
+ul {
+  gap: 36px;
+}
+
+header .btn-outline-light {
+  padding: 10px 53px;
+  border-color: #8794ba;
+  border-radius: 63px;
+}
+
+header .header-sign {
+  gap: 40px;
+}
+header .header-content {
+  max-width: 1350px;
+  width: 95%;
+}
+header .header-content .content-text {
+  max-width: 490px;
+}
+header .header-content .content-text p {
+  margin-top: 15px;
+  margin-bottom: 49px;
+}
+@media (max-width: 765px) {
+  header {
+    padding: 20px 20px;
+    padding-bottom: 127px;
+  }
+  header .header-content {
+    width: 100%;
+  }
+  header .header-content .content-text p {
+    margin-bottom: 26px;
+  }
+  header .header-content .content-text button {
+    width: 100%;
+  }
+}
+
+/* content section */
+.content {
+  max-width: 1180px;
+  margin-top: 70px;
+}
+
+.content .screen-shots img {
+  border-radius: 30px;
+}
+/* pricing section */
+.pricing {
+  background: url("./images/background-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  max-width: 1500px;
+  margin: auto;
+
+  padding-top: 230px;
+  padding-bottom: 110px;
+}
+.pricing h2 {
+  color: white;
+}
+.pricing .cards {
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 100px;
+  width: fit-content;
+  margin: auto;
+  border-bottom: 1px solid #2a407c;
+  margin-bottom: 69px;
+  max-width: 100%;
+  overflow: scroll;
+}
+.pricing .card {
+  min-width: 340px;
+
+  height: 440px;
+  background: #0f1f4b;
+
+  text-align: center;
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+  border-radius: 30px;
+}
+.pricing .card h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.pricing .card .price {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 26px;
+  border-top: solid 1px #2a407c;
+  width: 65%;
+  margin: auto;
+  margin-top: 37px;
+  margin-bottom: 0;
+}
+
+.pricing .card .price span {
+  font-size: 16px;
+}
+.pricing .card button {
+  margin-top: 40px;
+  color: #ffffff;
+  background: none;
+  border: 1px solid #2a407c;
+  padding: 15px 80px;
+
+  margin: auto;
+  border-radius: 68px;
+}
+
+.pricing .footer {
+  max-width: 1200px;
+}
+.pricing .footer .social {
+  gap: 40px;
+}
+.pricing .card-2 {
+  background: #ffffff;
+}
+.pricing .card-2 h2,
+.pricing .card-2 .price {
+  color: #172755;
+}
+.pricing .card-2 button {
+  background-color: #ef2a82;
+  border: none;
+}
+
+@media (max-width: 765px) {
+  .pricing {
+    padding: 30px;
+    padding-top: 200px;
+  }
+  .pricing .cards {
+    gap: 30px;
+  }
+  .pricing .card {
+    background: #ffffff;
+  }
+  .pricing .card h2,
+  .pricing .card .price {
+    color: #172755;
+  }
+  .pricing .card button {
+    background-color: #ef2a82;
+    border: none;
+  }
+}
