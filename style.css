@@ -130,6 +130,8 @@ header .header-content .content-text p {
   justify-content: center;
   gap: 80px;
   padding-bottom: 100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   margin: auto;
   border-bottom: 1px solid #2a407c;
